@@ -1,0 +1,97 @@
+html,
+body {
+    font-family: "robotoregular", sans-serif;
+    overflow-x: hidden;
+    height: 100%;
+    /*transition: background-color .5s;*/
+    transition: background-color .5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+button,
+button:active,
+button:focus,
+button:hover,
+.btn,
+.btn:active,
+.btn:focus,
+.btn:hover {
+    outline: none !important;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+a {
+    color: #706f6f;
+}
+
+a:hover {
+    color: #c1c1c1;
+}
+
+:focus,
+a:focus {
+    outline: 0;
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+
+
+/*to clear float use this below class ".group"*/
+.group:before,
+.group:after{
+content:"";
+display:table;
+}
+
+.group:after{
+clear:both;
+}
+
+.group{
+zoom:1;
+}
+
+/*end*/
+
+/*media queries start*/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/*992px media end*/
+
+@media (min-width: 768px) and (max-width: 991px) {}
+/*768px media end*/
+
+@media (max-width: 767px) {}
+/*767px media end*/
+
+@media screen and (max-width:320px) {}
+/*320px media end
+
+/*media queries end*/
