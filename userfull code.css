@@ -98,3 +98,12 @@
     /*320px media end
 
 /*media queries end*/
+
+
+/******************* text overflow **********************/
+.textoverflow{
+    width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
